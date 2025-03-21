@@ -1,0 +1,23 @@
+{
+  "version": 8,
+  "name": "ArcGIS Base Madrid",
+  "sources": {
+    "arcgis-base": {
+      "type": "raster",
+      "tiles": [
+        "https://sigma.madrid.es/vector/rest/services/MAPAS_BASE/CARTOCAM/MapServer/export?F=image&FORMAT=PNG32&TRANSPARENT=true&SIZE=256%2C256&BBOXSR=3857&IMAGESR=3857&DPI=90&BBOX={bbox}"
+      ],
+      "tileSize": 256,
+      "maxzoom": 18
+    }
+  },
+  "layers": [
+    {
+      "id": "arcgis-base-layer",
+      "type": "raster",
+      "source": "arcgis-base",
+      "minzoom": 0,
+      "maxzoom": 18
+    }
+  ]
+}
