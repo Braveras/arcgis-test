@@ -5,7 +5,7 @@
     "arcgis-base": {
       "type": "raster",
       "tiles": [
-        "https://sigma.madrid.es/vector/rest/services/MAPAS_BASE/CARTOCAM/MapServer/export?F=image&FORMAT=PNG32&TRANSPARENT=true&SIZE=256%2C256&BBOXSR=3857&IMAGESR=3857&DPI=90&BBOX={bbox}"
+        "https://sigma.madrid.es/vector/rest/services/MAPAS_BASE/CARTOCAM/MapServer/export?F=image&FORMAT=PNG32&TRANSPARENT=true&SIZE=256%2C256&BBOXSR=3857&IMAGESR=3857&DPI=90&BBOX={bbox-epsg-3857}"
       ],
       "tileSize": 256,
       "maxzoom": 18
